@@ -1710,3 +1710,7 @@ button:focus {
     font-size: 22px;
   }
 }
+
+.reg-link {
+  color: #9400d3;
+}
