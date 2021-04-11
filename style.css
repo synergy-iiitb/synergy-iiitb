@@ -1715,8 +1715,8 @@ button:focus {
   color: #9400d3;
 }
 
-li a,
-.dropbtn {
+.dropbtn-a,
+dropdown-a {
   display: inline-block;
   color: white;
   text-align: center;
@@ -1724,12 +1724,11 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
-.dropdown:hover .dropbtn {
+.dropdown-a:hover .dropbtn-a {
   background-color: #9400d3;
 }
 
-li.dropdown {
+li.dropdown-li {
   display: inline-block;
 }
 
@@ -1754,6 +1753,6 @@ li.dropdown {
   background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-li:hover .dropdown-content {
   display: block;
 }
