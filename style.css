@@ -1129,21 +1129,21 @@ button:focus {
 /* CONTACT US */
 /*--------------------*/
 
-#mu-contact {
+#mu-team {
   background-color: #f8f8f8;
   display: inline;
   float: left;
   width: 100%;
 }
 
-.mu-contact-area {
+.mu-team-area {
   display: inline;
   float: left;
   padding: 100px 0 50px;
   width: 100%;
 }
 
-.mu-contact-header {
+.mu-team-header {
   display: inline;
   float: left;
   text-align: center;
@@ -1151,7 +1151,7 @@ button:focus {
   padding: 0 120px;
 }
 
-.mu-contact-content {
+.mu-team-content {
   display: inline;
   float: left;
   margin-top: 50px;
@@ -1159,17 +1159,17 @@ button:focus {
   width: 100%;
 }
 
-.mu-contact-form-area {
+.mu-team-form-area {
   display: inline;
   float: left;
   width: 100%;
 }
 
-.mu-contact-form {
+.mu-team-form {
   text-align: center;
 }
 
-.mu-contact-form .form-group input {
+.mu-team-form .form-group input {
   background: transparent;
   border-radius: 5px;
   color: #333;
@@ -1179,7 +1179,7 @@ button:focus {
   margin-bottom: 24px;
 }
 
-.mu-contact-form .form-group textarea {
+.mu-team-form .form-group textarea {
   background: transparent;
   border: 1px solid #888;
   border-radius: 5px;
@@ -1189,36 +1189,36 @@ button:focus {
   height: 190px;
 }
 
-.mu-contact-form .form-control:focus {
+.mu-team-form .form-control:focus {
   background-color: #fff;
   outline: 0;
   box-shadow: none;
 }
 
-.mu-contact-form .form-control::-webkit-input-placeholder {
+.mu-team-form .form-control::-webkit-input-placeholder {
   color: #888;
   font-size: 15px;
 }
 
-.mu-contact-form .form-control:-moz-placeholder {
+.mu-team-form .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #888;
   font-size: 15px;
 }
 
-.mu-contact-form .form-control::-moz-placeholder {
+.mu-team-form .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #888;
   font-size: 15px;
 }
 
-.mu-contact-form .form-control:-ms-input-placeholder {
+.mu-team-form .form-control:-ms-input-placeholder {
   color: #888;
   font-size: 15px;
 }
 
-.mu-contact-form .button-default::after,
-.mu-contact-form .button-default > span {
+.mu-team-form .button-default::after,
+.mu-team-form .button-default > span {
   padding: 12px 40px;
 }
 
@@ -1422,7 +1422,7 @@ button:focus {
     padding: 0;
   }
 
-  .mu-contact-right {
+  .mu-team-right {
     margin-top: 50px;
   }
 
@@ -1513,7 +1513,7 @@ button:focus {
     padding: 0 100px;
   }
 
-  .mu-contact-content {
+  .mu-team-content {
     padding: 0 10%;
   }
 }
@@ -1635,7 +1635,7 @@ button:focus {
   }
 
   .mu-register-content,
-  .mu-contact-content {
+  .mu-team-content {
     padding: 0 5%;
   }
 
@@ -1713,4 +1713,47 @@ button:focus {
 
 .reg-link {
   color: #9400d3;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #9400d3;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
